@@ -24,7 +24,7 @@
                             <title>Document</title>
                         </head>
                         <body>
-                        
+
                         </body>
                         </html> ou {{auth() -> user() -> name}}
                 </div>

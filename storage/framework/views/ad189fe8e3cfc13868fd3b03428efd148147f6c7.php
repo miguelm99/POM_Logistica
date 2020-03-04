@@ -15,12 +15,27 @@
             </div>
             <div class="info">
                 <a href="#" class="d-block">
+
                     <?php if(isset(Auth::user()->email)): ?>
                         <strong> <?php echo e(Auth::user()->name); ?></strong>
-                        <a href="<?php echo e(url('/logout')); ?>">Logout</a>
+
+                            <a  href="<?php echo e(route('logout')); ?>"
+                               onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                <?php echo e(__('Logout')); ?>
+
+                            </a>
+
+                            <form id="logout-form" action="<?php echo e(route('logout')); ?>" method="POST" style="display: none;">
+                                <?php echo csrf_field(); ?>
+                            </form>
+
+
+
                     <?php else: ?>
-                        <script>window.location = "/main";</script>
+                        <script>window.location = "http://localhost/POM_Logistica/public/backend/loginAdmin";</script>
                     <?php endif; ?>
+
                 </a>
             </div>
         </div>

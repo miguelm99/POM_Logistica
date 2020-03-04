@@ -23,7 +23,7 @@
                             <title>Document</title>
                         </head>
                         <body>
-                        
+
                         </body>
                         </html> ou <?php echo e(auth() -> user() -> name); ?>
 

@@ -25,4 +25,8 @@ class AdminController extends Controller
     {
         return view('backend/admin_template');
     }
+
+    public function client(){
+        return view('frontend/index');
+    }
 }

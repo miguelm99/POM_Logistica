@@ -15,12 +15,26 @@
             </div>
             <div class="info">
                 <a href="#" class="d-block">
+
                     @if(isset(Auth::user()->email))
                         <strong> {{ Auth::user()->name }}</strong>
-                        <a href="{{ url('/logout') }}">Logout</a>
+
+                            <a  href="{{ route('logout') }}"
+                               onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                {{ __('Logout') }}
+                            </a>
+
+                            <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                @csrf
+                            </form>
+
+
+{{--                        <a href="{{ url('/logout') }}">Logout</a>--}}
                     @else
-                        <script>window.location = "/main";</script>
+                        <script>window.location = "http://localhost/POM_Logistica/public/backend/loginAdmin";</script>
                     @endif
+
                 </a>
             </div>
         </div>
