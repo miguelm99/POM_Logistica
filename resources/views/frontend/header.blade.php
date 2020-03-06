@@ -55,10 +55,10 @@
                                 <nav>
                                     <ul id="navigation">
                                         <li><a href="index.blade.php">Home</a></li>
-                                        <li><a href="inds/about.html">About</a></li>
+                                        <li><a href="inds/about.html">Cria Guia</a></li>
                                         <li><a href="industries.blade.php">Industries</a></li>
                                         <li><a href="inds/work.html">Works</a></li>
-                                        <li><a href="inds/blog.html">Blog</a>
+                                        <li><a href="inds/blog.html">Guia</a>
                                             <ul class="submenu">
                                                 <li><a href="inds/blog.html">Blog</a></li>
                                                 <li><a href="inds/single-blog.html">Blog Details</a></li>

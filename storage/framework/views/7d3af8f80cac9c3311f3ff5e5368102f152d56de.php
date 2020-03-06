@@ -32,7 +32,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <div class="container-fluid">
                 <div class="row mb-2">
                     <div class="col-sm-6">
-                        <h1 class="m-0 text-dark">Starter Page</h1>
+                        <h1 class="m-0 text-dark">Página do Administrador</h1>
                     </div><!-- /.col -->
                     <div class="col-sm-6">
                         <ol class="breadcrumb float-sm-right">
@@ -53,14 +53,30 @@ scratch. This page gets rid of all links and provides the needed markup only.
                     <div class="col-lg-6">
                         <div class="card">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
+                                <h3 class="card-title"><b>Infomação do Utilizador</b></h3>
 
                                 <p class="card-text">
-                                    Some quick example text to build on the card title and make up the bulk of the card's
-                                    content.
+                                   <b>Nome:</b> <?php echo e(Auth::user()->name); ?>
+
+                                    <br>
+                                    <b>Email:</b> <?php echo e(Auth::user()->email); ?>
+
+                                    <br>
+                                    <b>Firma:</b> <?php echo e(Auth::user()->firma); ?>
+
+                                    <br>
+                                    <b>NIF:</b> <?php echo e(Auth::user()->nif); ?>
+
+                                    <br>
+                                    <b>Numero de Telemovel:</b> <?php echo e(Auth::user()->numTelemovel); ?>
+
+                                    <br>
+                                    <?php echo e(Auth::user()->metodoPagamento); ?>
+
+
                                 </p>
 
-                                <a href="#" class="card-link">Card link</a>
+                                <a href="<?php echo e(url('editClient')); ?>" class="card-link">Editar</a>
                                 <a href="#" class="card-link">Another link</a>
                             </div>
                         </div>

@@ -127,7 +127,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Http/Controllers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/backend" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -143,9 +143,9 @@
       <recent name="C:\xampp\htdocs\POM_Logistica\public" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\POM_Logistica\resources\views\backend" />
       <recent name="C:\xampp\htdocs\POM_Logistica\app\Http\Controllers" />
       <recent name="C:\xampp\htdocs\POM_Logistica\resources\views\frontend" />
-      <recent name="C:\xampp\htdocs\POM_Logistica\resources\views\backend" />
       <recent name="C:\xampp\htdocs\POM_Logistica\resources\views" />
     </key>
   </component>
@@ -177,6 +177,9 @@
       <workItem from="1583226330768" duration="18570000" />
       <workItem from="1583253728481" duration="4061000" />
       <workItem from="1583312673388" duration="23387000" />
+      <workItem from="1583341160031" duration="2066000" />
+      <workItem from="1583399519269" duration="19297000" />
+      <workItem from="1583489287525" duration="11984000" />
     </task>
     <servers />
   </component>
@@ -192,33 +195,41 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="487" y="0" key="#PHP/0.0.1536.824@0.0.1536.824" timestamp="1583169661831" />
+    <state x="550" y="175" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1583412873659">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="550" y="175" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1583412873659" />
     <state x="430" y="68" width="690" height="687" key="#phpunit.xml" timestamp="1583169667442">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="430" y="68" width="690" height="687" key="#phpunit.xml/0.0.1536.824@0.0.1536.824" timestamp="1583169667442" />
-    <state x="604" y="331" key="NewPhpFileDialog" timestamp="1583226692722">
+    <state x="604" y="331" key="NewPhpFileDialog" timestamp="1583430414707">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="604" y="331" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1583226692722" />
+    <state x="604" y="331" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1583430414707" />
     <state width="246" height="198" key="ShowFilterAction_Filter_Popup" timestamp="1583334528229">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="246" height="198" key="ShowFilterAction_Filter_Popup/0.0.1536.824@0.0.1536.824" timestamp="1583334528229" />
-    <state x="444" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1583312719475">
+    <state x="444" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1583489287667">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="444" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1583312719475" />
-    <state x="72" y="0" width="1206" height="824" key="find.popup" timestamp="1583334748051">
+    <state x="444" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1583489287667" />
+    <state x="384" y="19" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1583492060159">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="72" y="0" width="1206" height="824" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1583334748051" />
-    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1583166073433">
+    <state x="384" y="19" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1583492060159" />
+    <state x="72" y="0" width="1206" height="824" key="find.popup" timestamp="1583497985555">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1583166073433" />
-    <state x="221" y="117" width="1141" height="722" key="search.everywhere.popup" timestamp="1583334537714">
+    <state x="72" y="0" width="1206" height="824" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1583497985555" />
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1583497987052">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="221" y="117" width="1141" height="722" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1583334537714" />
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1583497987052" />
+    <state x="221" y="117" width="1141" height="722" key="search.everywhere.popup" timestamp="1583497890424">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="221" y="117" width="1141" height="722" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1583497890424" />
   </component>
 </project>

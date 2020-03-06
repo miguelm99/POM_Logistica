@@ -10,6 +10,10 @@ Route::get('/', function () {
 Route::get('/adminIndex', function (){
     return view('backend/admin_template');
 });
+Route::get('/editClient', function (){
+    return view('backend/editClient');
+});
+
 Route::get('/admin', 'AdminController@admin')
     ->middleware('is_admin')
     ->name('admin');
@@ -18,10 +22,20 @@ Route::get('/loginAdmin', function (){
     return view('backend/loginAdmin');
 })->name('loginAdmin');
 
-/*Route::get('/admin', function (){
-    return view('backend/loginAdmin');
-})->middleware('auth');*/
 
+Route::get('/user', 'UserController@index');
+Route::get('/user/{user}', 'UserController@show');
+Route::get('/user/create', 'UserController@create');
+Route::put('/editClient/{id}', 'UserController@update');
+
+//Route::get('/user', 'UserController@store');
+//Route::get('/user/{user}/edit', 'UserController@edit');
+/*
+Route::get('backend/editClient', function (){
+    return view('backend/testes', [
+        'user'=> \App\User::take(3)->latest()->get()
+    ]);
+});*/
 
 Route::resource('clientes', 'ClientesController');
 
