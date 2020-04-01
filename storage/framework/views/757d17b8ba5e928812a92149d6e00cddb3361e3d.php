@@ -44,6 +44,14 @@
 
     <main>
 
+        <?php if(\Session::has('success')): ?>
+            <div class="alert alert-success">
+                <ul>
+                    <li><?php echo \Session::get('success'); ?></li>
+                </ul>
+            </div>
+        <?php endif; ?>
+
         <!-- slider Area Start-->
         <div class="slider-area ">
             <!-- Mobile Menu -->

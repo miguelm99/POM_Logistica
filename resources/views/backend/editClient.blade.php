@@ -108,7 +108,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                                             <label for="nif" class="col-md-4 col-form-label text-md-right">{{ __('NIF') }}</label>
 
                                             <div class="col-md-6">
-                                                <input id="nif" type="text" value="{{Auth()->user()->nif }}" class="form-control @error('nif') is-invalid @enderror" name="nif" value="{{ old('nif') }}" required autocomplete="nif" autofocus>
+                                                <input id="nif" type="tel" pattern="[0-9]+$" minlength="9" maxlength="9" value="{{Auth()->user()->nif }}" class="form-control @error('nif') is-invalid @enderror" name="nif" value="{{ old('nif') }}" required autocomplete="nif" autofocus>
 
                                                 @error('nif')
                                                 <span class="invalid-feedback" role="alert">
@@ -123,7 +123,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                                             <label for="numTelemovel" class="col-md-4 col-form-label text-md-right">{{ __('Numero de telemovel') }}</label>
 
                                             <div class="col-md-6">
-                                                <input id="numTelemovel" type="text" value="{{Auth()->user()->numTelemovel }}" class="form-control @error('numTelemovel') is-invalid @enderror" name="numTelemovel" value="{{ old('numTelemovel') }}" required autocomplete="numTelemovel" autofocus>
+                                                <input id="numTelemovel" pattern="[0-9]+$" minlength="9" maxlength="9" type="tel" value="{{Auth()->user()->numTelemovel }}" class="form-control @error('numTelemovel') is-invalid @enderror" name="numTelemovel" value="{{ old('numTelemovel') }}" required autocomplete="numTelemovel" autofocus>
 
                                                 @error('numTelemovel')
                                                 <span class="invalid-feedback" role="alert">

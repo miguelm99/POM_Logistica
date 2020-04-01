@@ -74,11 +74,12 @@ class UserController extends Controller
         return redirect('admin');
     }
 
-    public function destroy(User $user)
+    public function destroy($id)
     {
+        $user=User::find($id);
         $user->delete();
 
-        return redirect()->route('products.index')
-            ->with('success','Product deleted successfully');
+        return redirect()->route('index')
+            ->with('success','Utilizador eliminado com sucesso');
     }
 }

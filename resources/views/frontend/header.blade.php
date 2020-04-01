@@ -54,20 +54,12 @@
                             <div class="main-menu f-right d-none d-lg-block">
                                 <nav>
                                     <ul id="navigation">
-                                        <li><a href="index.blade.php">Home</a></li>
-                                        <li><a href="inds/about.html">Cria Guia</a></li>
+                                        <li><a href=".">Home</a></li>
                                         <li><a href="industries.blade.php">Industries</a></li>
                                         <li><a href="inds/work.html">Works</a></li>
-                                        <li><a href="inds/blog.html">Guia</a>
                                             <ul class="submenu">
                                                 <li><a href="inds/blog.html">Blog</a></li>
                                                 <li><a href="inds/single-blog.html">Blog Details</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="#">Perfil</a>
-                                            <ul class="submenu">
-                                                <li><a href="inds/contact.html">Dados Perfil</a></li>
-                                                <li><a href="inds/elements.html">Compras</a></li>
                                             </ul>
                                         </li>
                                     </ul>
@@ -77,7 +69,7 @@
                         <div class="col-xl-2 col-lg-3 col-md-3">
                             <!-- Header-btn -->
                             <div class="header-btn d-none d-lg-block">
-                                <a href="{{ route('loginCliente') }}" class="get-btn">Login</a>
+                                <a href="{{ route('loginCliente') }}" class="get-btn">Login/Registar</a>
                             </div>
                         </div>
                         <!-- Mobile Menu -->

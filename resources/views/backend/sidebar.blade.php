@@ -1,9 +1,8 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="index3.html" class="brand-link">
-        <img src="bower_components/admin-lte/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
+        <img src="inds/assets/img/logo/logo2_footer.png" height="25px" alt="AdminLTE Logo"
              style="opacity: .8">
-        <span class="brand-text font-weight-light">POM_Logística</span>
     </a>
 
     <!-- Sidebar -->
@@ -44,38 +43,73 @@
             <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                 <!-- Add icons to the links using the .nav-icon class
                      with font-awesome or any other icon font library -->
-                <li class="nav-item has-treeview menu-open">
-                    <a href="#" class="nav-link active">
-                        <i class="nav-icon fas fa-tachometer-alt"></i>
+                <li class="nav-item">
+                    <a href="{{url('admin')}}" class="nav-link">
+                        <i class="nav-icon fas fa-user"></i>
                         <p>
-                            Starter Pages
-                            <i class="right fas fa-angle-left"></i>
+                            Perfil
                         </p>
                     </a>
-                    <ul class="nav nav-treeview">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link active">
-                                <i class="far fa-circle nav-icon"></i>
-                                <p>Active Page</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
-                                <p>Inactive Page</p>
-                            </a>
-                        </li>
-                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="{{url('guias')}}" class="nav-link">
+                        <i class="nav-icon fas fa-archive"></i>
+                        <p>
+                            Gias
+                        </p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="guiatransportes" class="nav-link">
+                        <i class="nav-icon fas  fa-truck"></i>
+                        <p>
+                            Entrada/Saida
+                        </p>
+                    </a>
                 </li>
                 <li class="nav-item">
                     <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-th"></i>
+                        <i class="nav-icon fas fa-print "></i>
                         <p>
-                            Simple Link
-                            <span class="right badge badge-danger">New</span>
+                            Fatura
                         </p>
                     </a>
                 </li>
+                @if(Auth::user()->type==='admin')
+                <li class="nav-item">
+                    <a href="{{url('homeFrontend')}}" class="nav-link">
+                        <i class="nav-icon fas fa-object-group"></i>
+                        <p>
+                            Index
+                        </p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="nav-icon fas fa-magic"></i>
+                        <p>
+                            Caracteristicas
+                        </p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="nav-icon fas fa-arrow-circle-right"></i>
+                        <p>
+                            Pos
+                        </p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="nav-icon fas  fa-question-circle"></i>
+                        <p>
+                            Suporte
+                        </p>
+                    </a>
+                </li>
+
+                @endif
             </ul>
         </nav>
         <!-- /.sidebar-menu -->

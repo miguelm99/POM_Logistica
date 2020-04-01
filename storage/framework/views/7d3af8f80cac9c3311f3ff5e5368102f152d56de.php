@@ -11,14 +11,31 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
     <title>POM_Logística</title>
 
+
+
+
+
+
+
+
+
+
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+    <!-- Bootstrap 3.3.2 -->
+    <link href="<?php echo e(asset("/bower_components/admin-lte/plugins/bootstrap/css/bootstrap.min.css")); ?>" rel="stylesheet" type="text/css" />
     <!-- Font Awesome Icons -->
-    <link rel="stylesheet" href="bower_components/admin-lte/plugins/fontawesome-free/css/all.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <!-- Ionicons -->
+    <link href="http://code.ionicframework.com/ionicons/2.0.0/css/ionicons.min.css" rel="stylesheet" type="text/css" />
     <!-- Theme style -->
-    <link rel="stylesheet" href="bower_components/admin-lte/dist/css/adminlte.min.css">
-    <!-- Google Font: Source Sans Pro -->
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+    <link href="<?php echo e(asset("/bower_components/admin-lte/dist/css/AdminLTE.min.css")); ?>" rel="stylesheet" type="text/css" />
+    <!-- AdminLTE Skins. We have chosen the skin-blue for this starter
+          page. However, you can choose any other skin. Make sure you
+          apply the skin class to the body tag so the changes take effect.
+    -->
+    <link href="<?php echo e(asset("/bower_components/admin-lte/dist/css/skins/skin-blue.min.css")); ?>" rel="stylesheet" type="text/css" />
 </head>
-<body class="hold-transition sidebar-mini">
+<body class="hold-transition sidebar-mini skin-blue">
 <div class="wrapper">
 
     <?php echo $__env->make('backend.header', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
@@ -75,9 +92,14 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
 
                                 </p>
-
-                                <a href="<?php echo e(url('editClient')); ?>" class="card-link">Editar</a>
-                                <a href="#" class="card-link">Another link</a>
+                                <div class="row">
+                                <div class="col-sm-9">
+                                <a href="<?php echo e(url('editClient')); ?>" class="btn btn-primary">Editar</a>
+                                </div>
+                                <div class="col-sm">
+                                <a href="<?php echo e(URL('/adminIndex/'.Auth()->user()->id )); ?>" class=" btn btn-danger" onclick="return confirm('Tens a certeza que queres apagar a conta?');">Eliminar conta</a>
+                                </div>
+                                </div>
                             </div>
                         </div>
 
