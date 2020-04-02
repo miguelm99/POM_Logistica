@@ -15,14 +15,20 @@ Route::resource('guias', 'GuiasController');
 // rota guiatransportes
 Route::resource('guiatransportes', 'GuiatransportesController');
 
+//armazens
+Route::resource('armazens', 'ArmazensController');
+
+//moradas
+Route::resource('moradas', 'MoradasController')->name('*', 'admin');
+
 //Route::get('/admin', 'AdminController@admin')->name('admin');
 //rota para a página principal do backend
 Route::get('/adminIndex', function (){
     return view('backend/admin_template');
 });
-//Route::get('/editClient', function (){
-//    return view('backend/editClient');
-//});
+Route::get('/editClient', function (){
+    return view('backend/editClient');
+});
 
 //Route::get('/editIndex', function (){
 //    return view('backend/index/index');

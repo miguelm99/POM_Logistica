@@ -1,5 +1,4 @@
-@extends('backend.index.layout')
-
+@extends('backend.guias.layout')
 @section('content')
 
 

@@ -140,7 +140,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/backend/guiatransportes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/backend" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -149,19 +149,19 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\POM_Logistica\public\bower_components\jquery\dist" />
+      <recent name="C:\xampp\htdocs\POM_Logistica\public\bower_components\jquery" />
+      <recent name="C:\xampp\htdocs\POM_Logistica\public\bower_components\eonasdan-bootstrap-datetimepicker\build\css" />
+      <recent name="C:\xampp\htdocs\POM_Logistica\public\bower_components" />
+      <recent name="C:\xampp\htdocs\POM_Logistica\resources\views\backend\index" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\POM_Logistica\resources\views\backend" />
+      <recent name="C:\xampp\htdocs\POM_Logistica\resources\views\backend\moradas" />
+      <recent name="C:\xampp\htdocs\POM_Logistica\resources\views\backend\armazens" />
       <recent name="C:\xampp\htdocs\POM_Logistica\resources\views\backend\guiatransportes" />
       <recent name="C:\xampp\htdocs\POM_Logistica\resources\views\backend\guias" />
-      <recent name="C:\xampp\htdocs\POM_Logistica\resources\views\backend\caracteristicas" />
-      <recent name="C:\xampp\htdocs\POM_Logistica\resources\views\backend" />
-      <recent name="C:\xampp\htdocs\POM_Logistica\resources\views\frontend" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\POM_Logistica\resources\views\backend\index" />
-      <recent name="C:\xampp\htdocs\POM_Logistica\resources\views\backend" />
-      <recent name="C:\xampp\htdocs\POM_Logistica\resources\views\frontend" />
-      <recent name="C:\xampp\htdocs\POM_Logistica\app\Http\Controllers" />
-      <recent name="C:\xampp\htdocs\POM_Logistica\public" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -207,7 +207,8 @@
       <workItem from="1585133471042" duration="51494000" />
       <workItem from="1585582168284" duration="614000" />
       <workItem from="1585670311084" duration="16398000" />
-      <workItem from="1585758174856" duration="4601000" />
+      <workItem from="1585758174856" duration="6408000" />
+      <workItem from="1585837959118" duration="12983000" />
     </task>
     <servers />
   </component>
@@ -223,11 +224,15 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="487" y="0" key="#PHP/0.0.1536.824@0.0.1536.824" timestamp="1583169661831" />
-    <state x="688" y="221" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1585703557972">
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585845749809">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1585845749809" />
+    <state x="688" y="221" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1585838633302">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="550" y="175" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1583412873659" />
-    <state x="688" y="221" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1585703557972" />
+    <state x="688" y="221" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1585838633302" />
     <state x="430" y="68" width="690" height="687" key="#phpunit.xml" timestamp="1583169667442">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -241,11 +246,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="246" height="198" key="ShowFilterAction_Filter_Popup/0.0.1536.824@0.0.1536.824" timestamp="1583334528229" />
-    <state x="555" y="298" key="com.intellij.ide.util.TipDialog" timestamp="1585758252308">
+    <state x="555" y="298" key="com.intellij.ide.util.TipDialog" timestamp="1585837967073">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="444" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585582180124" />
-    <state x="555" y="298" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1585758252308" />
+    <state x="555" y="298" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1585837967073" />
     <state x="384" y="19" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1583492060159">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

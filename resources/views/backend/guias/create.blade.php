@@ -1,4 +1,4 @@
-@extends('backend.index.layout')
+@extends('backend.guias.layout')
 @section('content')
     <div class="row">
         <div class="col-lg-12 margin-tb">
@@ -36,14 +36,40 @@
                 <label>Date and time range:</label>
 
                 <div class="input-group">
-                    <div class="input-group-addon">
-                        <i class="fa fa-clock-o"></i>
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="far fa-clock"></i></span>
                     </div>
-                    <input type="text" class="form-control pull-right" id="reservationtime">
-
+                    <input type="text" class="form-control float-right" id="reservationtime">
                 </div>
                 <!-- /.input group -->
             </div>
+
+            <div class="col-sm-6">
+                <input type="text" class="form-control" id="datetimepicker4">
+            </div>
+            <script type="text/javascript">
+                $(function () {
+                    $('#datetimepicker4').datetimepicker();
+                });
+            </script>
+
+
+
+            <div class='col-sm-6'>
+                <div class="form-group">
+                    <div class='input-group date' id='datetimepicker1'>
+                        <input type='text' class="form-control" />
+                        <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+                    </div>
+                </div>
+            </div>
+            <script type="text/javascript">
+                $(function () {
+                    $('#datetimepicker1').datetimepicker();
+                });
+            </script>
 
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
